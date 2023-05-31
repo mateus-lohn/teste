@@ -23,7 +23,16 @@
 .App-a{
 
   padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
 
+}
+
+.App-img{
+  width: 100px;
+  height: 100px;
+  
 }
 
 
@@ -33,7 +42,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: var(--font-color);
 }
