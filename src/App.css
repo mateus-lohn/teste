@@ -5,7 +5,10 @@
 
 :root{
 
-  --background-color: black;
+  --background-color: #27374D;
+  --backgroud-color-secondary: #526D82;
+  --backgroud-color-terceary: #9DB2BF;
+  --backgroud-color-quaternary:#DDE6ED;
   --font-color: white;
 }
 
@@ -23,6 +26,27 @@
 .App-a{
 
   padding: 0px 20px 0px 20px;
+
+}
+
+.App-body{
+
+  min-height: 100vh;
+  background-color: var(--backgroud-color-quaternary);
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+
+.App-footer{
+
+  clear: both;
+  position: relative;
+  height: 74px;
+  background-color: var(--background-color);
+  justify-items: center;
+  justify-content: center;
+  display: flex;
 
 }
 
